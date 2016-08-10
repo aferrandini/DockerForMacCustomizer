@@ -1,5 +1,5 @@
 OSX Docker customization on start up
-------------------------------------
+====================================
 
 This image and docker-compose file creates a container that will adds files to /etc
 and certificates to your native Docker for Mac instance.
