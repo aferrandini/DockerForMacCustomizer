@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    machine:
+        build: ./build
+        restart: always
+        tty: true
+        volumes:
+            - /etc:/vm-etc
